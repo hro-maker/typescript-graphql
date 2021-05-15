@@ -1,0 +1,21 @@
+[
+  
+    {
+      "name": "development",
+      "type": "postgres",
+      "host": "localhost",
+      "port": 5432,
+      "username": "postgres",
+      "password": "tabacxur16",
+      "database": "express-graph",
+      "synchronize": true,
+      "logging": true,
+      "entities": ["src/entytes/*.ts"],
+      "migrations": ["src/migration/*.ts"],
+      "cli": {
+        "entitiesDir": "src/entytes",
+        "migrationsDir": "src/migration"
+      }
+    }
+   
+  ]
